@@ -87,7 +87,7 @@ guidelines.
 | 🔄 Flipped Interaction Pattern | Let AI interview you to reach a goal. | Missing critical context. | Goal + stopping criteria. |
 | 💌 Ask for Input Pattern | AI prompts *you* for the info it needs. | Conversation stalls without key details. | Input type (question, data, goal). |
 | 📜 Menu Actions Pattern | Define short commands for repetitive tasks. | Too much retyping. | Menu items + actions. |
-| 🐾 Tail Generation Pattern | Consistently close with a tagline or CTA. | Inconsistent endings. | Tail text + follow-up request. |
+| 🐾 Tail Generation Pattern | Consistently close with a tagline or CTA. | Inconsistent endings. | Tail text + optional follow-up request. |
 
 ---
 
