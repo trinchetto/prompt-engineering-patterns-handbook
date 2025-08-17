@@ -81,11 +81,15 @@ CONTRIBUTING.md            # You are here
    ```
    git checkout -b add-new-pattern
    ```
-3. Commit with a descriptive message:
+3. Test for broken links:
+   ```
+   pytest
+   ```
+4. Commit with a descriptive message:
    ```
    git commit -m "Add [Pattern Name] to [Group]"
    ```
-4. Push and open a pull request.
+5. Push and open a pull request.
 
 ---
 
