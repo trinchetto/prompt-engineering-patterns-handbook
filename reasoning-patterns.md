@@ -1,6 +1,7 @@
 # Reasoning & Analysis Patterns 🧠
 
 ## Question Refinement Pattern ✏️
+
 **Description:** Improve the quality of a question before answering it.
 
 **Purpose:** Ensures the AI addresses the right problem.
@@ -10,11 +11,14 @@
 **Data Needed & Why:** The initial question — it’s the starting point for refinement.
 
 **Quick Copy-Paste Prompt:**
-```
+
+```text
 Before answering, improve my question for clarity and completeness.
 Original: [your question]
 ```
+
 **Examples:**
+
 - *General-purpose*  
   1. Refine: “Tell me about history” → “Summarize the key events of WWII in Europe.”  
   2. Refine: “How to cook?” → “How to cook a medium-rare steak on a charcoal grill?”
@@ -25,6 +29,7 @@ Original: [your question]
 ---
 
 ## Cognitive Verifier Pattern 🧮
+
 **Description:** Split a big question into smaller ones, answer them, then combine.
 
 **Purpose:** Improves accuracy and completeness.
@@ -34,11 +39,14 @@ Original: [your question]
 **Data Needed & Why:** Original complex question — to break down logically.
 
 **Quick Copy-Paste Prompt:**
-```
+
+```text
 Break this question into sub-questions, answer each, then combine into a final answer:
 [complex question]
 ```
+
 **Examples:**
+
 - *General-purpose*  
   1. “How do I plan a wedding?” → Venue, guest list, catering, timeline.  
   2. “How do I move abroad?” → Visa, housing, finances, culture.
@@ -49,6 +57,7 @@ Break this question into sub-questions, answer each, then combine into a final a
 ---
 
 ## Chain-of-Thought Prompting 🪢
+
 **Description:** Instruct the AI to reason step-by-step before giving the answer.
 
 **Purpose:** Produces more logical, transparent reasoning.
@@ -58,11 +67,14 @@ Break this question into sub-questions, answer each, then combine into a final a
 **Data Needed & Why:** Reasoning challenge to solve.
 
 **Quick Copy-Paste Prompt:**
-```
+
+```text
 Think step-by-step before answering:
 [problem]
 ```
+
 **Examples:**
+
 - *General-purpose*  
   1. Solve a math problem with intermediate steps.  
   2. Plan a budget showing calculations.
@@ -73,6 +85,7 @@ Think step-by-step before answering:
 ---
 
 ## ReAct Prompting 🤖
+
 **Description:** Alternate between reasoning steps and taking actions (real or simulated).
 
 **Purpose:** Models tool use and decision-making.
@@ -82,14 +95,17 @@ Think step-by-step before answering:
 **Data Needed & Why:** Goal + list of available actions.
 
 **Quick Copy-Paste Prompt:**
-```
+
+```text
 Use this format:
 Reasoning: [thought]
 Action: [action]
 Observation: [result]
 Repeat until goal achieved.
 ```
+
 **Examples:**
+
 - *General-purpose*  
   1. Search for the capital of a country, then verify in Wikipedia.  
   2. Look up a recipe, then calculate its calories.
@@ -123,6 +139,7 @@ Solve [problem] using Tree-of-Thought reasoning. At each step, generate several 
 ---
 
 ## Fact-Check List Pattern ✅
+
 **Description:** Produce a list of facts to verify.
 
 **Purpose:** Improves output reliability.
@@ -132,10 +149,13 @@ Solve [problem] using Tree-of-Thought reasoning. At each step, generate several 
 **Data Needed & Why:** Topic to verify.
 
 **Quick Copy-Paste Prompt:**
-```
+
+```text
 List key facts about [topic] that should be verified, with suggested sources.
 ```
+
 **Examples:**
+
 - *General-purpose*  
   1. List facts about a historic event to verify.  
   2. List claims in a news article for fact-checking.
@@ -146,6 +166,7 @@ List key facts about [topic] that should be verified, with suggested sources.
 ---
 
 ## Semantic Filter Pattern 🚫
+
 **Description:** Filter out any content matching specified rules.
 
 **Purpose:** Removes unwanted or restricted outputs.
@@ -155,10 +176,13 @@ List key facts about [topic] that should be verified, with suggested sources.
 **Data Needed & Why:** Clear filter rules or banned topics.
 
 **Quick Copy-Paste Prompt:**
-```
+
+```text
 When responding, remove any content that matches these rules: [rules].
 ```
+
 **Examples:**
+
 - *General-purpose*  
   1. Remove spoilers from a movie review.  
   2. Filter out political content from an article summary.
