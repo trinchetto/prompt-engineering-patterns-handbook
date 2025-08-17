@@ -8,13 +8,12 @@ We welcome contributions that make the handbook more useful for practitioners bu
 ## 📂 Repository Structure
 
 ```
-/docs
-  README.md                  # Master index
-  interaction-patterns.md    # Group 1: Interaction Patterns
-  structuring-patterns.md    # Group 2: Structuring Patterns
-  reasoning-patterns.md      # Group 3: Reasoning & Analysis Patterns
-  creativity-patterns.md     # Group 4: Creativity & Exploration Patterns
-  CONTRIBUTING.md            # You are here
+README.md                  # Master index
+interaction-patterns.md    # Group 1: Interaction Patterns
+structuring-patterns.md    # Group 2: Structuring Patterns
+reasoning-patterns.md      # Group 3: Reasoning & Analysis Patterns
+creativity-patterns.md     # Group 4: Creativity & Exploration Patterns
+CONTRIBUTING.md            # You are here
 ```
 
 ---
@@ -57,7 +56,7 @@ We welcome contributions that make the handbook more useful for practitioners bu
    ```
 
 3. **Add it to the master README catalog**  
-   In `/docs/README.md`, add your pattern to:
+   In `README.md`, add your pattern to:
    - The **Table of Contents** (link to your section in the group file)
    - The **Pattern Catalog** table in the appropriate group
 
