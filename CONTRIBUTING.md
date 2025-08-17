@@ -29,7 +29,7 @@ CONTRIBUTING.md            # You are here
 
 2. **Follow the existing format**  
    Add your pattern as a new section:
-   ```markdown
+   ````markdown
    ## Pattern Name + Emoji
    **Description:** [One or two sentences explaining the pattern.]
 
@@ -53,7 +53,7 @@ CONTRIBUTING.md            # You are here
      2. ...
 
    ---
-   ```
+   ````
 
 3. **Add it to the master README catalog**  
    In `README.md`, add your pattern to:
