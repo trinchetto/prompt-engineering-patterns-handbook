@@ -45,7 +45,7 @@ guidelines.
 <summary><strong>📜 Table of Contents</strong></summary>
 
 ### 1. Interaction Patterns 💬
-- [Persona Pattern 🧑‍🎭](./interaction-patterns.md#persona-patern-)
+- [Persona Pattern 🧑‍🎭](./interaction-patterns.md#persona-pattern-)
 - [Audience Persona Pattern 👥](./interaction-patterns.md#audience-persona-pattern-)
 - [Flipped Interaction Pattern 🔄](./interaction-patterns.md#flipped-interaction-pattern-)
 - [Ask for Input Pattern 💌](./interaction-patterns.md#ask-for-input-pattern-)
