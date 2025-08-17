@@ -99,6 +99,29 @@ Repeat until goal achieved.
 
 ---
 
+## Tree-of-Thought Prompting 🌳
+**Description:** Explore multiple reasoning paths in a tree and expand the most promising branches. 
+
+**Purpose:** Encourages diverse thinking to uncover better solutions.
+
+**Problem it Solves:** Linear reasoning can miss optimal paths or answers.
+
+**Data Needed & Why:** A clear problem statement and criteria to evaluate each branch.
+
+**Quick Copy-Paste Prompt:**
+```
+Solve [problem] using Tree-of-Thought reasoning. At each step, generate several options, evaluate them, and continue with the best branch until you reach a conclusion.
+```
+**Examples:**
+- *General-purpose*
+  1. Brainstorm puzzle moves, compare outcomes, and choose the best path.
+  2. Plan a trip by exploring different routes and selecting the optimal itinerary.
+- *AI Agent / Custom GPT*
+  1. Consider alternative API call sequences and pick the most effective workflow.
+  2. Explore debugging hypotheses for a failing pipeline and pursue the most promising fix.
+
+---
+
 ## Fact-Check List Pattern ✅
 **Description:** Produce a list of facts to verify.
 
