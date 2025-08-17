@@ -31,6 +31,7 @@ The patterns here are **reusable blueprints**. Each is like a Lego brick: snap t
 - [Cognitive Verifier Pattern 🧮](./reasoning-patterns.md#cognitive-verifier-pattern-)
 - [Chain-of-Thought Prompting 🪢](./reasoning-patterns.md#chain-of-thought-prompting-)
 - [ReAct Prompting 🤖](./reasoning-patterns.md#react-prompting-)
+- [Tree-of-Thought Prompting 🌳](./reasoning-patterns.md#tree-of-thought-prompting-)
 - [Fact-Check List Pattern ✅](./reasoning-patterns.md#fact-check-list-pattern-)
 - [Semantic Filter Pattern 🚫](./reasoning-patterns.md#semantic-filter-pattern-)
 
@@ -77,6 +78,7 @@ The patterns here are **reusable blueprints**. Each is like a Lego brick: snap t
 | 🧮 Cognitive Verifier Pattern | Split into sub-questions & recombine. | Missed details, shallow analysis. | Main question. |
 | 🪢 Chain-of-Thought Prompting | Show reasoning before the answer. | Answers lack depth. | Reasoning challenge. |
 | 🤖 ReAct Prompting | Mix reasoning and actions. | Tool use feels random. | Goal + available actions. |
+| 🌳 Tree-of-Thought Prompting | Explore multiple reasoning branches and choose the best. | Linear reasoning misses better solutions. | Problem + evaluation criteria. |
 | ✅ Fact-Check List Pattern | Generate key verifiable facts. | Hidden inaccuracies. | Topic to fact-check. |
 | 🚫 Semantic Filter Pattern | Strip unwanted content. | Output violates constraints. | Filter criteria. |
 
