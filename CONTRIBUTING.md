@@ -13,6 +13,7 @@ interaction-patterns.md    # Group 1: Interaction Patterns
 structuring-patterns.md    # Group 2: Structuring Patterns
 reasoning-patterns.md      # Group 3: Reasoning & Analysis Patterns
 creativity-patterns.md     # Group 4: Creativity & Exploration Patterns
+gpts/                      # Custom GPT implementations
 CONTRIBUTING.md            # You are here
 ```
 

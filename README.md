@@ -24,6 +24,7 @@ guidelines.
 - **Pattern files** – Each category file documents specific patterns using a
   consistent template: description, purpose, problem solved, data needed, a
   “quick copy-paste prompt,” and general vs. AI-agent examples.
+- **Custom GPTs** – `gpts/` contains ready-to-use GPT configurations that apply these patterns in practice.
 - **Contribution workflow** – `CONTRIBUTING.md` outlines how to add a new
   pattern: choose the correct group file, follow the standard section format,
   and update the master README catalog.
